@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Questrial');
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #EAE7DC;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  color: #E85A4F;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  flex-grow: 6;
+  margin: 4px;
+}
+
+#header {
+	width: 100%;
+	font-family: 'Anton', sans-serif;
+	background: #EAE7DC;
+	text-align: center;
+	line-height: 150px;
+}
+
+#sources {
+	text-align: center;
+	margin: 4px;
+	font-size: 15px;
+	line-height: 15px;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+}
+
+#sources > a {
+	padding-right: 20px; 
+	
+}
+
+#picture {
+	font-size: 18px;
+	line-height: 15px;
+	height: 60px;
+}
+
+#footer {
+	width: 100%;
+	background: #EAE7DC;
+	font-family: 'Questrial', sans-serif;
+	font-size: 15px;
+	height: 20px;
+	
+}
+
+#my-links {
+	font-size: 18px;
+	text-align: center;
+	height: 60px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+a {
+	color: #E85A4F;
+	text-decoration: none;
+}	
+	
+
+#list-style {
+	list-style: none;
+	padding-left: 0px; 
+}
+
+#homework {
+	font-size: 18px;
+	height: 60px;
+}
+
+.body {
+	background: #D8C3A5;
