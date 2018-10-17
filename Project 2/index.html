@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>lauren-find-iPhone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="container-box">
+   
+<div class = "alert-msg">
+  <span class="closebtn">&times;</span>
+  <span id="alert-msg-text"></span>
+</div>
+  
+<div class="item-box">
+  <img id="find-iphone-icon" src = "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/Product_Help/en_US/PUBLIC_USERS/PP452/AppIconDefault_FMiP_1.png" />
+</div>
+
+<div class="item-box app-box single-row">
+  <h1>Find My iPhone</h1>
+</div>
+  
+<div class="app-box double-row">
+<div id="app-inputs-top">
+  <label>Apple ID</label>
+  <input id="appleID" type="text" onBlur="enableSignIn()" placeholder="Email"/>
+  <label>Password</label>
+  <input id="password" type="password" onBlur="enableSignIn()" placeholder="Required"/>
+</div>
+
+<br>
+  
+<div class="app-inputs-bottom" class="double-row">
+  <button id="signIn" disabled>Sign In...</button>
+</div>
+
+<br>
+
+<div class="item-box">
+  <a href="#" target="_blank" style = "text-decoration: none">
+  <font color = "#4CAF50">  
+  Forgot Apple ID or Password?</a> 
+</div>
+    
+<br>
+    
+<div>
+  <a href="#" target="_blank" style = "text-decoration: none"><font color = "#4CAF50">Setup Instructions</a>
+</div>  
+    
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

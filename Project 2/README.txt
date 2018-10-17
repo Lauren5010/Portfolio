@@ -1,0 +1,2 @@
+Find-My-iPhone Design
+I worked on the physical layout of the app first.  I created a border, inserted a photo, and entered text.  Then, I created input boxes for the username and password and inserted a working button.  The working links (below the Sign In button) were linked to external pages.  I then worked to get the input boxes working with the Sign In button and had it activate upon entering text in both boxes.  Lastly, I changed font colors and edited spacing.
