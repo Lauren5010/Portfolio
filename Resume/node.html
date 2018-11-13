@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="Desktop/bootstrap-4.1.3-dist.zip">
+
+<title>Lauren's Resume</title>
+</head>
+
+<body>
+
+<button class="collapsible">Collapse Resume</button>
+<div id="container-fluid" style="display:block">
+
+<h2>Lauren Alford</h2>
+
+<div class="item-box">
+<img id="portrait" src="../Desktop/images/monster200x296.jpg" class="center">
+
+<button id="contactInfo" class="collapsible">Contact</button>
+<div class="info" style="display:block">
+<p>148 Grayland Street, Russellville, Alabama 35653 <br>
+(256) 668-5010 <br>
+lalford@una.edu - lauren.alford2@gmail.com</p>
+</div>
+
+<button class="collapsible">Education</button>
+<div class="content" style="display:block">
+  <p>Bachelor of Education and Human Sciences, May 2019 <br>
+  University of North Alabama, Florence, Alabama <br>
+  Major: Secondary Education, Business and Marketing Education <br>
+  GPA:  3.88</p>
+</div>
+
+<button class="collapsible">Experience</button>
+<div class="content" style="display:block">
+  <p><strong>Office Assistant</strong>, March 2016 - August 2018 <br>
+  American Realty Company LLC of Russellville, AL </p>
+  <ul>
+  <li> Log new listings into the computer </li>
+  <li> Keep inventory of active listings </li>
+  <li> Maintain files and e-mail </li>
+  <li> Schedule showings with clients and realtors </li>
+  </ul>
+  
+  <p><strong>Chapter President</strong>, December 2017 - December 2018 <br>
+  Alpha Gamma Delta, Florence, AL </p>
+  <ul>
+  <li> Manage day-to-day operations of the chapter </li>
+  <li> Act as voice and face of chapter </li>
+  <li> Manage team of officers </li>
+  <li> Ensure chapter well-being </li>
+  </ul>
+  
+  <p><strong>Membership Coordinator</strong>, December 2016 - December 2017 <br>
+  Alpha Gamma Delta, Florence, AL </p>
+  <ul>
+  <li> Organized recommendation letters </li>
+  <li> Maintained spreadsheet to organize fraternity recruitment information </li>
+  </ul>
+</div>
+
+<button class="collapsible">Volunteer</button>
+<div class="content" style="display:block">
+  <p>First Baptist Church, July 2015 - September 2018</p>
+  <ul>
+  <li> Three-year old Class Teacher </li>
+  <li> Vacation Bible School Photographer </li>
+  <li> Kids Bible Study Assistant </li>
+  </ul>
+  
+  <p>Alpha Gamma Delta, August 2015 - Present</p>
+  <ul>
+  <li>5K for Fighting Hunger</li>
+  <li>Meals On Wheels</li>
+  <li>Alpha Jam-A-Thon</li>
+  </ul>
+  
+</div>
+<button class="collapsible">Honors</button>
+<div class="content" style="display:block">
+  <p>National Society of Leadership and Success, December 2017 - Present <br> 
+  Order of Omega, December 2017 - Present <br>
+  University of North Alabama Dean's List, Fall 2016 - Present <br>
+  Gamma Sigma Alpha, November 2018 - Present</p>
+</div>
+
+<button class="collapsible">Web Development Skills and Resources</button>
+<div class="list" style="display:block">
+<h3>Skills</h3>
+<ul>
+<li>HTML & CSS Language</li>
+<li>Responsive Design</li>
+<li>Images</li>
+<li>GitHub</li>
+<li>Media Queries</li>
+<li>Bootstrap</li>
+<li>Javascript & jQuery</li>
+</ul>
+
+<div id="resources" class="flex-item">
+<h3>Resources</h3>
+<a href="https://github.com/Lauren5010/Portfolio"><strong>GitHub</strong></a> <br>
+<a href="https://codepen.io/dashboard/"><strong>CodePen</strong></a>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+
+
+</html>
