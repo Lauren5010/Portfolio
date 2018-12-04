@@ -1,0 +1,107 @@
+#container-box {
+  background-color: black;
+  text-align: center;
+  width: 350px;
+  height:600px;
+  margin: auto;
+  padding: 0;
+  border: solid 1px gray;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+h1 {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+button {
+  color: #f49842;
+  border: none;
+  border-radius: 50px;    
+  background-color: black;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+}
+	
+#flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#hour {
+  color: #f49842;
+  font-size: 35px;
+  width: 10%;
+}
+
+#minute1 {
+  color: #f49842;
+  font-size: 35px;
+  width: 10%;
+}
+
+#minute2 {
+  color: #f49842;
+  font-size: 35px;
+  width: 10%;
+}
+
+#when-ampm {
+  color: #fff;
+  font-size: 35px;
+  width: 10%;
+  display: absolute;
+  cursor: pointer;
+}
+
+p {
+	color: #f49842;
+	font-size: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#hour-box {
+  font-size: 20px; 
+  text-align: center;
+  margin: 10px;
+  border: dotted 1px #f49842; 
+  cursor: pointer;
+}
+
+#minute-tens-box {
+  font-size: 20px;
+  border: dotted 1px #f49842; 
+  margin: 10px;
+  cursor: pointer;
+}
+
+#minute-ones-box {
+  font-size: 20px;
+  border: dotted 1px #f49842; 
+  margin: 10px;
+  cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
+  display: inline;
+}
+
+li {
+  display: inline-block;
+}
+
+.selected {
+  font-weight: bold;
+  color: #f49842;
+}
+a {
+color: #fff;
+font-size: 20px;
+}
